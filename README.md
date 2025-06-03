@@ -34,34 +34,34 @@ Designed with simplicity and clarity in mind, even first-time users feel instant
 ## 🛠 How to Run on Your Personal Computer
 
 ### 1. *Clone the Repository*
-bash
+```bash
 git clone https://github.com/AnishkaR10/swasthya-ai.git
 cd swasthya-ai
-
+```
 
 ### 2. *Install Backend Dependencies*
-bash
+```bash
 cd backend
 npm install
-
+```
 
 ### 3. *Start Backend Server*
-bash
+```bash
 npm run dev
-
+```
 
 > Ensure environment variables like API keys or DB URIs are set in a .env file in the backend folder.
 
 ### 4. *Install Frontend Dependencies*
-bash
+```bash
 cd ../frontend
 npm install
-
+```
 
 ### 5. *Start Frontend*
-bash
+```bash
 npm start
-
+```
 
 The app will run at http://localhost:3000
 
@@ -71,49 +71,51 @@ The app will run at http://localhost:3000
 
 > Requires Twilio or WhatsApp Business API and webhook setup.
 
-
-💬 Example Prompts & Interactions
-🥗 1. Meal Logging
+💬 Example Prompts & Interactions  
+🥗 1. Meal Logging  
 User:
-
+```
 "Log meal: 2 chapatis, paneer curry, cucumber salad"
-
+```
 Bot (via AI):
-
+```
 “✅ Meal logged! Looks like a good mix of protein and fiber. Keep it up! Tip: Try to limit paneer intake to 2–3 times a week for balanced fat levels.”
-
+```
 Logged in: Google Sheets or Notion under "Meals"
 
-🍵 2. Ask for a Healthy Recipe
+🍵 2. Ask for a Healthy Recipe  
 User:
-
+```
 "Give me a healthy breakfast recipe"
-
+```
 Bot:
-
+```
 “Try this: Oats Upma 🥣 — made with oats, veggies, and spices. Low in fat and high in fiber. Want more? Reply 'Next'.”
+```
 
-🧠 3. Ask a Health/Fitness Question
+🧠 3. Ask a Health/Fitness Question  
 User:
-
+```
 "Is skipping dinner good for weight loss?"
-
+```
 Bot (via AI):
-
+```
 “Skipping meals can lead to overeating later. Instead, try a light dinner like soup or salad. Balanced intake helps more with weight loss.”
+```
 
-📊 4. Check Weekly Summary
+📊 4. Check Weekly Summary  
 User:
-
+```
 "Show my weekly progress"
-
+```
 Bot:
-
+```
 “Here’s your summary:
 🥗 12 meals logged
 🧘 7 workout sessions
 __ calories burned & __ calories consumed
 Great consistency! 🌟”
+```
 
 ---
 
@@ -129,7 +131,4 @@ Great consistency! 🌟”
 - *Google Sheets Integration:* Google Sheets API
 - *API Testing:* Postman
   
-  
-
-
 *Made with ❤ to promote healthy living through technology*
